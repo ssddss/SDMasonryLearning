@@ -15,6 +15,11 @@
 		3818F63C1B534AF1009D0B0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3818F63B1B534AF1009D0B0E /* Images.xcassets */; };
 		3818F63F1B534AF1009D0B0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3818F63D1B534AF1009D0B0E /* LaunchScreen.xib */; };
 		3818F64B1B534AF1009D0B0E /* SDMasonryLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F64A1B534AF1009D0B0E /* SDMasonryLearningTests.m */; };
+		3818F65C1B535130009D0B0E /* MASExampleLayoutGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F6571B535130009D0B0E /* MASExampleLayoutGuideViewController.m */; };
+		3818F65D1B535130009D0B0E /* MASExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F6591B535130009D0B0E /* MASExampleListViewController.m */; };
+		3818F65E1B535130009D0B0E /* MASExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F65B1B535130009D0B0E /* MASExampleViewController.m */; };
+		3818F6621B53525B009D0B0E /* MASExampleBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F6611B53525B009D0B0E /* MASExampleBasicView.m */; };
+		3818F6651B535CCA009D0B0E /* MASExampleConstantsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F6641B535CCA009D0B0E /* MASExampleConstantsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,16 @@
 		3818F6491B534AF1009D0B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3818F64A1B534AF1009D0B0E /* SDMasonryLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDMasonryLearningTests.m; sourceTree = "<group>"; };
 		3818F6541B534C47009D0B0E /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		3818F6561B535130009D0B0E /* MASExampleLayoutGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleLayoutGuideViewController.h; sourceTree = "<group>"; };
+		3818F6571B535130009D0B0E /* MASExampleLayoutGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleLayoutGuideViewController.m; sourceTree = "<group>"; };
+		3818F6581B535130009D0B0E /* MASExampleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleListViewController.h; sourceTree = "<group>"; };
+		3818F6591B535130009D0B0E /* MASExampleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleListViewController.m; sourceTree = "<group>"; };
+		3818F65A1B535130009D0B0E /* MASExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleViewController.h; sourceTree = "<group>"; };
+		3818F65B1B535130009D0B0E /* MASExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleViewController.m; sourceTree = "<group>"; };
+		3818F6601B53525B009D0B0E /* MASExampleBasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleBasicView.h; sourceTree = "<group>"; };
+		3818F6611B53525B009D0B0E /* MASExampleBasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleBasicView.m; sourceTree = "<group>"; };
+		3818F6631B535CCA009D0B0E /* MASExampleConstantsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleConstantsView.h; sourceTree = "<group>"; };
+		3818F6641B535CCA009D0B0E /* MASExampleConstantsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleConstantsView.m; sourceTree = "<group>"; };
 		5090974C686BA7A2705839DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E94BB00877DC7EEFAA204075 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0E19759D9EE0BC058A32D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +112,8 @@
 		3818F62D1B534AF1009D0B0E /* SDMasonryLearning */ = {
 			isa = PBXGroup;
 			children = (
+				3818F65F1B535139009D0B0E /* Views */,
+				3818F6551B535130009D0B0E /* Controllers */,
 				3818F6321B534AF1009D0B0E /* AppDelegate.h */,
 				3818F6331B534AF1009D0B0E /* AppDelegate.m */,
 				3818F6351B534AF1009D0B0E /* ViewController.h */,
@@ -134,6 +151,30 @@
 				3818F6491B534AF1009D0B0E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3818F6551B535130009D0B0E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3818F6561B535130009D0B0E /* MASExampleLayoutGuideViewController.h */,
+				3818F6571B535130009D0B0E /* MASExampleLayoutGuideViewController.m */,
+				3818F6581B535130009D0B0E /* MASExampleListViewController.h */,
+				3818F6591B535130009D0B0E /* MASExampleListViewController.m */,
+				3818F65A1B535130009D0B0E /* MASExampleViewController.h */,
+				3818F65B1B535130009D0B0E /* MASExampleViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3818F65F1B535139009D0B0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3818F6601B53525B009D0B0E /* MASExampleBasicView.h */,
+				3818F6611B53525B009D0B0E /* MASExampleBasicView.m */,
+				3818F6631B535CCA009D0B0E /* MASExampleConstantsView.h */,
+				3818F6641B535CCA009D0B0E /* MASExampleConstantsView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D557E36811ECEC3952F0BBA3 /* Pods */ = {
@@ -280,9 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3818F65C1B535130009D0B0E /* MASExampleLayoutGuideViewController.m in Sources */,
+				3818F6651B535CCA009D0B0E /* MASExampleConstantsView.m in Sources */,
+				3818F6621B53525B009D0B0E /* MASExampleBasicView.m in Sources */,
+				3818F65E1B535130009D0B0E /* MASExampleViewController.m in Sources */,
 				3818F6371B534AF1009D0B0E /* ViewController.m in Sources */,
 				3818F6341B534AF1009D0B0E /* AppDelegate.m in Sources */,
 				3818F6311B534AF1009D0B0E /* main.m in Sources */,
+				3818F65D1B535130009D0B0E /* MASExampleListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
