@@ -29,7 +29,7 @@
         orangeView.backgroundColor = UIColor.orangeColor;
         orangeView.layer.borderColor = UIColor.blackColor.CGColor;
         orangeView.layer.borderWidth = 2;
-        [self addSubview:orangeView];
+        [purpleView addSubview:orangeView];
         
         [purpleView makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(@20);
@@ -39,7 +39,8 @@
         }];
         
         [orangeView makeConstraints:^(MASConstraintMaker *make) {
-            make.center.equalTo(CGPointMake(0, 50));
+            //这个距离的是父view的中心点
+            make.center.equalTo(CGPointMake(-50, 0));
             make.size.equalTo(CGSizeMake(200, 100));
         }];
     }

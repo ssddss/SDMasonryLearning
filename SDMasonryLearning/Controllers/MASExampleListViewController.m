@@ -14,12 +14,12 @@
 //#import "MASExampleAnimatedView.h"
 //#import "MASExampleDebuggingView.h"
 //#import "MASExampleLabelView.h"
-//#import "MASExampleUpdateView.h"
-//#import "MASExampleRemakeView.h"
+#import "MASExampleUpdateView.h"
+#import "MASExampleRemakeView.h"
 //#import "MASExampleScrollView.h"
 #import "MASExampleLayoutGuideViewController.h"
-//#import "MASExampleArrayView.h"
-//#import "MASExampleAttributeChainingView.h"
+#import "MASExampleArrayView.h"
+#import "MASExampleAttributeChainingView.h"
 //#import "MASExampleAspectFitView.h"
 //#import "MASExampleMarginView.h"
 
@@ -42,12 +42,12 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
     self.exampleControllers = @[
         [[MASExampleViewController alloc] initWithTitle:@"Basic"
                                               viewClass:MASExampleBasicView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Update Constraints"
-//                                              viewClass:MASExampleUpdateView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Remake Constraints"
-//                                              viewClass:MASExampleRemakeView.class],
+        [[MASExampleViewController alloc] initWithTitle:@"Update Constraints"
+                                              viewClass:MASExampleUpdateView.class],
+        [[MASExampleViewController alloc] initWithTitle:@"Remake Constraints"
+                                              viewClass:MASExampleRemakeView.class],
         [[MASExampleViewController alloc] initWithTitle:@"Using Constants"
-                                              viewClass:MASExampleConstantsView.class]
+                                              viewClass:MASExampleConstantsView.class],
 //        [[MASExampleViewController alloc] initWithTitle:@"Composite Edges"
 //                                              viewClass:MASExampleSidesView.class],
 //        [[MASExampleViewController alloc] initWithTitle:@"Aspect Fit"
@@ -60,10 +60,10 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
 //                                              viewClass:MASExampleLabelView.class],
 //        [[MASExampleViewController alloc] initWithTitle:@"UIScrollView"
 //                                              viewClass:MASExampleScrollView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Array"
-//                                              viewClass:MASExampleArrayView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Attribute Chaining"
-//                                              viewClass:MASExampleAttributeChainingView.class],
+        [[MASExampleViewController alloc] initWithTitle:@"Array"
+                                              viewClass:MASExampleArrayView.class],
+        [[MASExampleViewController alloc] initWithTitle:@"Attribute Chaining"
+                                              viewClass:MASExampleAttributeChainingView.class]
 //        [[MASExampleViewController alloc] initWithTitle:@"Margins"
 //                                              viewClass:MASExampleMarginView.class],
 
