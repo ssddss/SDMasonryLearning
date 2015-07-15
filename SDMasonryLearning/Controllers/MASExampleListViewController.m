@@ -16,11 +16,11 @@
 //#import "MASExampleLabelView.h"
 #import "MASExampleUpdateView.h"
 #import "MASExampleRemakeView.h"
-//#import "MASExampleScrollView.h"
+#import "MASExampleScrollView.h"
 #import "MASExampleLayoutGuideViewController.h"
 #import "MASExampleArrayView.h"
 #import "MASExampleAttributeChainingView.h"
-//#import "MASExampleAspectFitView.h"
+#import "MASExampleAspectFitView.h"
 //#import "MASExampleMarginView.h"
 
 static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
@@ -50,16 +50,16 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
                                               viewClass:MASExampleConstantsView.class],
 //        [[MASExampleViewController alloc] initWithTitle:@"Composite Edges"
 //                                              viewClass:MASExampleSidesView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Aspect Fit"
-//                                              viewClass:MASExampleAspectFitView.class],
+        [[MASExampleViewController alloc] initWithTitle:@"Aspect Fit"
+                                              viewClass:MASExampleAspectFitView.class],
 //        [[MASExampleViewController alloc] initWithTitle:@"Basic Animated"
 //                                              viewClass:MASExampleAnimatedView.class],
 //        [[MASExampleViewController alloc] initWithTitle:@"Debugging Helpers"
 //                                              viewClass:MASExampleDebuggingView.class],
 //        [[MASExampleViewController alloc] initWithTitle:@"Bacony Labels"
 //                                              viewClass:MASExampleLabelView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"UIScrollView"
-//                                              viewClass:MASExampleScrollView.class],
+        [[MASExampleViewController alloc] initWithTitle:@"UIScrollView"
+                                              viewClass:MASExampleScrollView.class],
         [[MASExampleViewController alloc] initWithTitle:@"Array"
                                               viewClass:MASExampleArrayView.class],
         [[MASExampleViewController alloc] initWithTitle:@"Attribute Chaining"

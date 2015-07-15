@@ -20,6 +20,8 @@
 		3818F65E1B535130009D0B0E /* MASExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F65B1B535130009D0B0E /* MASExampleViewController.m */; };
 		3818F6621B53525B009D0B0E /* MASExampleBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F6611B53525B009D0B0E /* MASExampleBasicView.m */; };
 		3818F6651B535CCA009D0B0E /* MASExampleConstantsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F6641B535CCA009D0B0E /* MASExampleConstantsView.m */; };
+		38ABB69B1B55F03A00206DC3 /* MASExampleAspectFitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ABB69A1B55F03A00206DC3 /* MASExampleAspectFitView.m */; };
+		38ABB69E1B55FB3900206DC3 /* MASExampleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ABB69D1B55FB3900206DC3 /* MASExampleScrollView.m */; };
 		38C968841B549D8000ACD53D /* MASExampleUpdateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C968831B549D8000ACD53D /* MASExampleUpdateView.m */; };
 		38C968871B54A1EB00ACD53D /* MASExampleRemakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C968861B54A1EA00ACD53D /* MASExampleRemakeView.m */; };
 		38C9688A1B54A4DD00ACD53D /* MASExampleAttributeChainingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C968891B54A4DD00ACD53D /* MASExampleAttributeChainingView.m */; };
@@ -61,6 +63,10 @@
 		3818F6611B53525B009D0B0E /* MASExampleBasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleBasicView.m; sourceTree = "<group>"; };
 		3818F6631B535CCA009D0B0E /* MASExampleConstantsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleConstantsView.h; sourceTree = "<group>"; };
 		3818F6641B535CCA009D0B0E /* MASExampleConstantsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleConstantsView.m; sourceTree = "<group>"; };
+		38ABB6991B55F03A00206DC3 /* MASExampleAspectFitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleAspectFitView.h; sourceTree = "<group>"; };
+		38ABB69A1B55F03A00206DC3 /* MASExampleAspectFitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleAspectFitView.m; sourceTree = "<group>"; };
+		38ABB69C1B55FB3900206DC3 /* MASExampleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleScrollView.h; sourceTree = "<group>"; };
+		38ABB69D1B55FB3900206DC3 /* MASExampleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleScrollView.m; sourceTree = "<group>"; };
 		38C968821B549D8000ACD53D /* MASExampleUpdateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleUpdateView.h; sourceTree = "<group>"; };
 		38C968831B549D8000ACD53D /* MASExampleUpdateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleUpdateView.m; sourceTree = "<group>"; };
 		38C968851B54A1EA00ACD53D /* MASExampleRemakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleRemakeView.h; sourceTree = "<group>"; };
@@ -193,6 +199,10 @@
 				38C968891B54A4DD00ACD53D /* MASExampleAttributeChainingView.m */,
 				38C9688B1B54A9A400ACD53D /* MASExampleArrayView.h */,
 				38C9688C1B54A9A400ACD53D /* MASExampleArrayView.m */,
+				38ABB6991B55F03A00206DC3 /* MASExampleAspectFitView.h */,
+				38ABB69A1B55F03A00206DC3 /* MASExampleAspectFitView.m */,
+				38ABB69C1B55FB3900206DC3 /* MASExampleScrollView.h */,
+				38ABB69D1B55FB3900206DC3 /* MASExampleScrollView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,9 +351,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38ABB69E1B55FB3900206DC3 /* MASExampleScrollView.m in Sources */,
 				38C968841B549D8000ACD53D /* MASExampleUpdateView.m in Sources */,
 				3818F65C1B535130009D0B0E /* MASExampleLayoutGuideViewController.m in Sources */,
 				38C968871B54A1EB00ACD53D /* MASExampleRemakeView.m in Sources */,
+				38ABB69B1B55F03A00206DC3 /* MASExampleAspectFitView.m in Sources */,
 				3818F6651B535CCA009D0B0E /* MASExampleConstantsView.m in Sources */,
 				38C9688A1B54A4DD00ACD53D /* MASExampleAttributeChainingView.m in Sources */,
 				3818F6621B53525B009D0B0E /* MASExampleBasicView.m in Sources */,
