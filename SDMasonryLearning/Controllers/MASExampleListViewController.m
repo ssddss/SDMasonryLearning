@@ -12,8 +12,8 @@
 #import "MASExampleConstantsView.h"
 //#import "MASExampleSidesView.h"
 //#import "MASExampleAnimatedView.h"
-//#import "MASExampleDebuggingView.h"
-//#import "MASExampleLabelView.h"
+#import "MASExampleDebuggingView.h"
+#import "MASExampleLabelView.h"
 #import "MASExampleUpdateView.h"
 #import "MASExampleRemakeView.h"
 #import "MASExampleScrollView.h"
@@ -54,10 +54,10 @@ static NSString * const kMASCellReuseIdentifier = @"kMASCellReuseIdentifier";
                                               viewClass:MASExampleAspectFitView.class],
 //        [[MASExampleViewController alloc] initWithTitle:@"Basic Animated"
 //                                              viewClass:MASExampleAnimatedView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Debugging Helpers"
-//                                              viewClass:MASExampleDebuggingView.class],
-//        [[MASExampleViewController alloc] initWithTitle:@"Bacony Labels"
-//                                              viewClass:MASExampleLabelView.class],
+        [[MASExampleViewController alloc] initWithTitle:@"Debugging Helpers"
+                                              viewClass:MASExampleDebuggingView.class],
+        [[MASExampleViewController alloc] initWithTitle:@"Bacony Labels"
+                                              viewClass:MASExampleLabelView.class],
         [[MASExampleViewController alloc] initWithTitle:@"UIScrollView"
                                               viewClass:MASExampleScrollView.class],
         [[MASExampleViewController alloc] initWithTitle:@"Array"

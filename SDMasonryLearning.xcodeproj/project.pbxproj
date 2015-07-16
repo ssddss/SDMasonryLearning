@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B367939DEFE195234CCA359 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94BB00877DC7EEFAA204075 /* libPods.a */; };
+		3812C1BC1B5754F800C8ADFB /* MASExampleDebuggingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3812C1BB1B5754F800C8ADFB /* MASExampleDebuggingView.m */; };
 		3818F6311B534AF1009D0B0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F6301B534AF1009D0B0E /* main.m */; };
 		3818F6341B534AF1009D0B0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F6331B534AF1009D0B0E /* AppDelegate.m */; };
 		3818F6371B534AF1009D0B0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F6361B534AF1009D0B0E /* ViewController.m */; };
@@ -22,6 +23,7 @@
 		3818F6651B535CCA009D0B0E /* MASExampleConstantsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3818F6641B535CCA009D0B0E /* MASExampleConstantsView.m */; };
 		38ABB69B1B55F03A00206DC3 /* MASExampleAspectFitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ABB69A1B55F03A00206DC3 /* MASExampleAspectFitView.m */; };
 		38ABB69E1B55FB3900206DC3 /* MASExampleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ABB69D1B55FB3900206DC3 /* MASExampleScrollView.m */; };
+		38C076881B574343001C7568 /* MASExampleLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C076871B574343001C7568 /* MASExampleLabelView.m */; };
 		38C968841B549D8000ACD53D /* MASExampleUpdateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C968831B549D8000ACD53D /* MASExampleUpdateView.m */; };
 		38C968871B54A1EB00ACD53D /* MASExampleRemakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C968861B54A1EA00ACD53D /* MASExampleRemakeView.m */; };
 		38C9688A1B54A4DD00ACD53D /* MASExampleAttributeChainingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C968891B54A4DD00ACD53D /* MASExampleAttributeChainingView.m */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3812C1BA1B5754F800C8ADFB /* MASExampleDebuggingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleDebuggingView.h; sourceTree = "<group>"; };
+		3812C1BB1B5754F800C8ADFB /* MASExampleDebuggingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleDebuggingView.m; sourceTree = "<group>"; };
 		3818F62B1B534AF1009D0B0E /* SDMasonryLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDMasonryLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3818F62F1B534AF1009D0B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3818F6301B534AF1009D0B0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 		38ABB69A1B55F03A00206DC3 /* MASExampleAspectFitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleAspectFitView.m; sourceTree = "<group>"; };
 		38ABB69C1B55FB3900206DC3 /* MASExampleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleScrollView.h; sourceTree = "<group>"; };
 		38ABB69D1B55FB3900206DC3 /* MASExampleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleScrollView.m; sourceTree = "<group>"; };
+		38C076861B574343001C7568 /* MASExampleLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleLabelView.h; sourceTree = "<group>"; };
+		38C076871B574343001C7568 /* MASExampleLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleLabelView.m; sourceTree = "<group>"; };
 		38C968821B549D8000ACD53D /* MASExampleUpdateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleUpdateView.h; sourceTree = "<group>"; };
 		38C968831B549D8000ACD53D /* MASExampleUpdateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleUpdateView.m; sourceTree = "<group>"; };
 		38C968851B54A1EA00ACD53D /* MASExampleRemakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleRemakeView.h; sourceTree = "<group>"; };
@@ -187,6 +193,8 @@
 		3818F65F1B535139009D0B0E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3812C1BA1B5754F800C8ADFB /* MASExampleDebuggingView.h */,
+				3812C1BB1B5754F800C8ADFB /* MASExampleDebuggingView.m */,
 				3818F6601B53525B009D0B0E /* MASExampleBasicView.h */,
 				3818F6611B53525B009D0B0E /* MASExampleBasicView.m */,
 				3818F6631B535CCA009D0B0E /* MASExampleConstantsView.h */,
@@ -203,6 +211,8 @@
 				38ABB69A1B55F03A00206DC3 /* MASExampleAspectFitView.m */,
 				38ABB69C1B55FB3900206DC3 /* MASExampleScrollView.h */,
 				38ABB69D1B55FB3900206DC3 /* MASExampleScrollView.m */,
+				38C076861B574343001C7568 /* MASExampleLabelView.h */,
+				38C076871B574343001C7568 /* MASExampleLabelView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -359,6 +369,8 @@
 				3818F6651B535CCA009D0B0E /* MASExampleConstantsView.m in Sources */,
 				38C9688A1B54A4DD00ACD53D /* MASExampleAttributeChainingView.m in Sources */,
 				3818F6621B53525B009D0B0E /* MASExampleBasicView.m in Sources */,
+				3812C1BC1B5754F800C8ADFB /* MASExampleDebuggingView.m in Sources */,
+				38C076881B574343001C7568 /* MASExampleLabelView.m in Sources */,
 				3818F65E1B535130009D0B0E /* MASExampleViewController.m in Sources */,
 				3818F6371B534AF1009D0B0E /* ViewController.m in Sources */,
 				3818F6341B534AF1009D0B0E /* AppDelegate.m in Sources */,
