@@ -28,6 +28,7 @@
 		38C968871B54A1EB00ACD53D /* MASExampleRemakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C968861B54A1EA00ACD53D /* MASExampleRemakeView.m */; };
 		38C9688A1B54A4DD00ACD53D /* MASExampleAttributeChainingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C968891B54A4DD00ACD53D /* MASExampleAttributeChainingView.m */; };
 		38C9688D1B54A9A400ACD53D /* MASExampleArrayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C9688C1B54A9A400ACD53D /* MASExampleArrayView.m */; };
+		E5D2B8F31B58999100F3F621 /* MASExampleAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D2B8F21B58999100F3F621 /* MASExampleAnimatedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		38C9688B1B54A9A400ACD53D /* MASExampleArrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleArrayView.h; sourceTree = "<group>"; };
 		38C9688C1B54A9A400ACD53D /* MASExampleArrayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleArrayView.m; sourceTree = "<group>"; };
 		5090974C686BA7A2705839DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E5D2B8F11B58999100F3F621 /* MASExampleAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleAnimatedView.h; sourceTree = "<group>"; };
+		E5D2B8F21B58999100F3F621 /* MASExampleAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleAnimatedView.m; sourceTree = "<group>"; };
 		E94BB00877DC7EEFAA204075 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0E19759D9EE0BC058A32D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,6 +216,8 @@
 				38ABB69D1B55FB3900206DC3 /* MASExampleScrollView.m */,
 				38C076861B574343001C7568 /* MASExampleLabelView.h */,
 				38C076871B574343001C7568 /* MASExampleLabelView.m */,
+				E5D2B8F11B58999100F3F621 /* MASExampleAnimatedView.h */,
+				E5D2B8F21B58999100F3F621 /* MASExampleAnimatedView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -363,6 +368,7 @@
 			files = (
 				38ABB69E1B55FB3900206DC3 /* MASExampleScrollView.m in Sources */,
 				38C968841B549D8000ACD53D /* MASExampleUpdateView.m in Sources */,
+				E5D2B8F31B58999100F3F621 /* MASExampleAnimatedView.m in Sources */,
 				3818F65C1B535130009D0B0E /* MASExampleLayoutGuideViewController.m in Sources */,
 				38C968871B54A1EB00ACD53D /* MASExampleRemakeView.m in Sources */,
 				38ABB69B1B55F03A00206DC3 /* MASExampleAspectFitView.m in Sources */,
